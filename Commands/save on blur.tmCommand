@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>beforeRunningCommand</key>
+	<string>saveModifiedFiles</string>
+	<key>command</key>
+	<string>#!/usr/bin/env ruby -wKU
+puts "Files saved"
+</string>
+	<key>input</key>
+	<string>none</string>
+	<key>name</key>
+	<string>save on blur</string>
+	<key>outputLocation</key>
+	<string>toolTip</string>
+	<key>semanticClass</key>
+	<string>callback.application.did-deactivate</string>
+	<key>uuid</key>
+	<string>A8306C6A-5C7D-46D0-B8C3-4BD2E4E81925</string>
+</dict>
+</plist>
