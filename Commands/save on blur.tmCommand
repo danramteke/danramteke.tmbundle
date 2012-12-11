@@ -12,8 +12,10 @@ puts "Files saved"
 	<string>none</string>
 	<key>name</key>
 	<string>save on blur</string>
+	<key>outputCaret</key>
+	<string>afterOutput</string>
 	<key>outputLocation</key>
-	<string>toolTip</string>
+	<string>discard</string>
 	<key>semanticClass</key>
 	<string>callback.application.did-deactivate</string>
 	<key>uuid</key>
