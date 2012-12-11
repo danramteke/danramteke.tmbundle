@@ -6,7 +6,7 @@
 	<string>nop</string>
 	<key>command</key>
 	<string>#!/usr/bin/env ruby -wKU
-`echo "$TM_FILEPATH" | pbcopy`
+`/bin/echo -n #{ENV['TM_FILEPATH']} | pbcopy`
 puts ENV['TM_FILEPATH']
 </string>
 	<key>input</key>
